@@ -1,46 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="One stack: khive remembers and coordinates, lionagi orchestrates, khive computer is the workspace, Lattice computes, LNkernel proves.">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#15213b"/>
-    </linearGradient>
-    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6f7ea3"/>
-    </marker>
-  </defs>
-  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-  <text x="600" y="48" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f5f7fb">One stack, one loop</text>
-  <g font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
-    <rect x="40" y="90" width="200" height="120" rx="14" fill="#1c2a4a" stroke="#f6c453" stroke-width="2"/>
-    <text x="140" y="130" font-size="22" font-weight="700" fill="#f6c453">khive</text>
-    <text x="140" y="158" font-size="15" fill="#dbe2f1">remembers and coordinates</text>
-    <text x="140" y="182" font-size="13" fill="#8f9bb8">graph, retrieval, tasks, messages</text>
-
-    <rect x="270" y="90" width="200" height="120" rx="14" fill="#1c2a4a" stroke="#9fd3ff" stroke-width="2"/>
-    <text x="370" y="130" font-size="22" font-weight="700" fill="#9fd3ff">lionagi</text>
-    <text x="370" y="158" font-size="15" fill="#dbe2f1">orchestrates</text>
-    <text x="370" y="182" font-size="13" fill="#8f9bb8">agents, tools, structured output</text>
-
-    <rect x="500" y="90" width="200" height="120" rx="14" fill="#1c2a4a" stroke="#b7f0c1" stroke-width="2"/>
-    <text x="600" y="130" font-size="22" font-weight="700" fill="#b7f0c1">khive computer</text>
-    <text x="600" y="158" font-size="15" fill="#dbe2f1">workspace for AI agents</text>
-    <text x="600" y="182" font-size="13" fill="#8f9bb8">trees, refs, sandboxed exec, git</text>
-
-    <rect x="730" y="90" width="200" height="120" rx="14" fill="#1c2a4a" stroke="#ffb3c1" stroke-width="2"/>
-    <text x="830" y="130" font-size="22" font-weight="700" fill="#ffb3c1">Lattice</text>
-    <text x="830" y="158" font-size="15" fill="#dbe2f1">computes</text>
-    <text x="830" y="182" font-size="13" fill="#8f9bb8">inference on Apple Silicon</text>
-
-    <rect x="960" y="90" width="200" height="120" rx="14" fill="#1c2a4a" stroke="#d9c6ff" stroke-width="2"/>
-    <text x="1060" y="130" font-size="22" font-weight="700" fill="#d9c6ff">LNkernel</text>
-    <text x="1060" y="158" font-size="15" fill="#dbe2f1">proves</text>
-    <text x="1060" y="182" font-size="13" fill="#8f9bb8">Lean 4 against the Rust</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="376" viewBox="0 0 1200 376" role="img" aria-label="The stack: a model on top; lionagi orchestrates; khive remembers and coordinates; khive computer is the workspace; Lattice computes; LNkernel proves.">
+  <rect width="1200" height="376" fill="#0a0a0b"/>
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2.4" fill="#5f5f66">
+    <text x="72" y="30">LAYER</text>
+    <text x="400" y="30">WHAT IT DOES</text>
+    <text x="1128" y="30" text-anchor="end">STACK</text>
   </g>
-  <g stroke="#6f7ea3" stroke-width="2" fill="none" marker-end="url(#arrow)">
-    <line x1="240" y1="150" x2="268" y2="150"/>
-    <line x1="470" y1="150" x2="498" y2="150"/>
-    <line x1="700" y1="150" x2="728" y2="150"/>
-    <line x1="930" y1="150" x2="958" y2="150"/>
-  </g>
-  <text x="600" y="258" text-anchor="middle" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#b8c2d9">Agents connect over MCP. Every project is built by the agents it serves, and every rough edge they hit is one yours would have hit too.</text>
+  <line x1="72" y1="40" x2="1128" y2="40" stroke="#2a2a2e" stroke-width="1"/>
+
+  <text x="72" y="74" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" font-style="italic" fill="#8a8a90">a model</text>
+  <text x="400" y="74" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8a8a90">the interface: any provider, connected over MCP</text>
+  <line x1="72" y1="92" x2="1128" y2="92" stroke="#1c1c1f" stroke-width="1"/>
+
+  <rect x="56" y="118" width="5" height="5" fill="#c9b280"/>
+  <text x="72" y="126" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#f2efe9">lionagi</text>
+  <text x="400" y="126" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#b9b7b2">orchestrates: agents, tools, structured output, flows</text>
+  <text x="1128" y="126" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e6e75">Python</text>
+  <line x1="72" y1="144" x2="1128" y2="144" stroke="#1c1c1f" stroke-width="1"/>
+
+  <rect x="56" y="170" width="5" height="5" fill="#c9b280"/>
+  <text x="72" y="178" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#f2efe9">khive</text>
+  <text x="400" y="178" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#b9b7b2">remembers and coordinates: graph, retrieval, tasks, messages</text>
+  <text x="1128" y="178" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e6e75">Rust · khive.ai</text>
+  <line x1="72" y1="196" x2="1128" y2="196" stroke="#1c1c1f" stroke-width="1"/>
+
+  <rect x="56" y="222" width="5" height="5" fill="#c9b280"/>
+  <text x="72" y="230" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#f2efe9">khive computer</text>
+  <text x="400" y="230" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#b9b7b2">the workspace: trees as values, refs with history, sandboxed actions, git</text>
+  <text x="1128" y="230" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e6e75">Python · Docker</text>
+  <line x1="72" y1="248" x2="1128" y2="248" stroke="#1c1c1f" stroke-width="1"/>
+
+  <rect x="56" y="274" width="5" height="5" fill="#c9b280"/>
+  <text x="72" y="282" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#f2efe9">Lattice</text>
+  <text x="400" y="282" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#b9b7b2">computes: transformer inference on Apple Silicon, no Python runtime</text>
+  <text x="1128" y="282" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e6e75">Rust · Metal</text>
+  <line x1="72" y1="300" x2="1128" y2="300" stroke="#1c1c1f" stroke-width="1"/>
+
+  <rect x="56" y="326" width="5" height="5" fill="#c9b280"/>
+  <text x="72" y="334" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="22" fill="#f2efe9">LNkernel</text>
+  <text x="400" y="334" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#b9b7b2">proves: Lean 4 theorems checked against the Rust that ships</text>
+  <text x="1128" y="334" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#6e6e75">Rust · Lean 4</text>
+  <line x1="72" y1="352" x2="1128" y2="352" stroke="#2a2a2e" stroke-width="1"/>
 </svg>

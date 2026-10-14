@@ -1,24 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="khive AI. The model is the interface. khive is the computer.">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1020"/>
-      <stop offset="1" stop-color="#15213b"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f6c453"/>
-      <stop offset="1" stop-color="#e8873a"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
-  <rect x="48" y="58" width="6" height="144" rx="3" fill="url(#line)"/>
-  <text x="78" y="104" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#f5f7fb">The model is the interface.</text>
-  <text x="78" y="156" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#f6c453">khive is the computer.</text>
-  <text x="78" y="200" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#b8c2d9">Memory, coordination, a computer, inference and proofs for long-horizon AI agents. Rust and Python. Open source.</text>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#0b1020" font-weight="600">
-    <rect x="860" y="70" width="112" height="30" rx="15" fill="#f6c453"/><text x="916" y="90" text-anchor="middle">khive</text>
-    <rect x="982" y="70" width="112" height="30" rx="15" fill="#9fd3ff"/><text x="1038" y="90" text-anchor="middle">lionagi</text>
-    <rect x="860" y="112" width="112" height="30" rx="15" fill="#b7f0c1"/><text x="916" y="132" text-anchor="middle">computer</text>
-    <rect x="982" y="112" width="112" height="30" rx="15" fill="#ffb3c1"/><text x="1038" y="132" text-anchor="middle">Lattice</text>
-    <rect x="860" y="154" width="234" height="30" rx="15" fill="#d9c6ff"/><text x="977" y="174" text-anchor="middle">LNkernel · Lean 4</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="The model is the interface. khive is the computer.">
+  <rect width="1200" height="240" fill="#0a0a0b"/>
+  <text x="72" y="96" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="46" fill="#f2efe9">The model is the interface.</text>
+  <text x="72" y="150" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="46" font-style="italic" fill="#c9b280">khive is the computer.</text>
+  <line x1="72" y1="182" x2="1128" y2="182" stroke="#232326" stroke-width="1"/>
+  <text x="72" y="208" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2.4" fill="#7d7d84">MEMORY · COORDINATION · WORKSPACE · INFERENCE · PROOFS</text>
+  <text x="1128" y="208" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2.4" fill="#7d7d84">FOR LONG-HORIZON AI AGENTS · RUST · PYTHON · OPEN SOURCE</text>
 </svg>
